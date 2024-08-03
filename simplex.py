@@ -99,8 +99,8 @@ def simplex(c, A, b):
 #main
 if '__main__' == __name__:
     # Ejemplo de uso
-    c = [20, 30, 25]    #Funcion Objetivo
-    A = [[1, 1, 3], [1, 2, 1], [1, 1,1]]    #Restricciones
-    b = [600, 500, 300] #Disponibilidad de recursos
+    c = [24, 32, 48]    #Funcion Objetivo
+    A = [[1, 1, 1], [1, 1, 2], [2, 3,5]]    #Restricciones
+    b = [400, 600, 1500] #Disponibilidad de recursos
 
     simplex(c, A, b)
